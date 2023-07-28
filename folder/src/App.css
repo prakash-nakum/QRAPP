@@ -1,0 +1,410 @@
+/* Old css this is not use in this code  */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.menu-listing {
+  background-color: #1155a0;
+}
+h2 {
+  font-family: "PT Sans", sans-serif;
+}
+svg {
+  margin-left: 5px;
+}
+
+.header-list svg {
+  margin-left: 4px;
+}
+
+.header-details {
+  padding: 0 20px;
+}
+
+.header-wrapper a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.header-wrapper a:hover {
+  cursor: pointer;
+  color: #00c8ff;
+  text-decoration: none;
+}
+
+.header-details:hover {
+  border-radius: 6px;
+  background-color: white;
+  padding: 0 20px;
+  transition-duration: 0.3s;
+}
+
+.header-list svg:hover {
+  margin-left: 4px;
+}
+
+.social-icon {
+  margin-left: 35px;
+}
+.firstsection label {
+  margin-left: 22px;
+}
+
+.firstsection {
+  display: flex;
+}
+.details {
+  margin-right: 200px;
+}
+
+.error-message {
+  margin: 10px 0 0 25px;
+  color: red;
+}
+
+.file-qrcode {
+  background-color: rgb(247, 240, 232);
+  padding: 20px;
+  margin: 50px 0 0 20px;
+}
+
+.file-others p {
+  margin-left: 22px;
+}
+
+.file-wrappernew {
+  margin-top: 50px;
+  background-color: rgb(247, 240, 232);
+  padding: 20px;
+}
+/* Old css this is not use in this code  Over */
+
+/* ////new css for desing */
+.arity-logo img {
+  width: 80px;
+  border-radius: 50%;
+}
+.header-alltext {
+  padding: 10px 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.header-alltext h2 {
+  padding-top: 6px;
+  color: white;
+  padding-left: 50px;
+}
+
+.header-wraper {
+  background-color: #1675dd;
+  box-shadow: 0 0 12px 0 black;
+}
+.header-alltext button {
+  background-color: orange;
+  margin-left: 450px;
+  color: black;
+}
+
+.menu-listing {
+  margin-top: 25px;
+  padding: 10px 0;
+  border-radius: 7px;
+}
+
+.menu-listing ul li {
+  padding-right: 50px;
+  list-style-type: none;
+}
+
+body {
+  background-color: #1155a0;
+  height: 1200px;
+}
+
+.url-wrapper h2 {
+  font-family: "Lumanosimo", cursive;
+}
+
+.step-text {
+  border-radius: 7px;
+  margin-top: 40px;
+  padding: 10px 0;
+}
+.steponetext {
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  height: 28px;
+  background-color: black;
+}
+
+.inputed-feilds input {
+  margin: 0 0 23px 23px;
+}
+.qr-burron-stted {
+  margin-left: 23px;
+}
+.qr-burron-stted label {
+  margin: 0 30px 20px 0;
+  border-radius: 5px;
+  padding: 8px 10px;
+}
+.qr-burron-stted label input {
+  margin-right: 5px;
+}
+.GegerateQRCode {
+  padding: 0 0 20px 23px;
+}
+.GegerateQRCode svg {
+  color: white;
+  background-color: black;
+  margin-top: 12px;
+}
+.GegerateQRCode p {
+  font-size: 15px;
+  padding-left: 5px;
+  margin-top: 9px;
+}
+.suggetion {
+  margin-left: 10px;
+}
+.button-all-eye {
+  margin-left: 23px;
+  margin-bottom: 20px;
+}
+.button-all-eye button {
+  background-color: #cfdae1;
+}
+
+.button-all-eye button {
+  margin-right: 10px;
+}
+
+.qredit-main {
+  padding-bottom: 30px;
+}
+.qrimg {
+  padding-bottom: 30px;
+}
+
+.rul-step-two {
+  background-color: white;
+  border-radius: 6px;
+}
+
+.file-step-one {
+  background-color: white;
+  border-radius: 6px;
+}
+
+.file-setted {
+  margin: 0 23px 23px 23px;
+  padding: 100px 160px;
+}
+.supported-button button {
+  margin-right: 20px;
+}
+
+.support-main h2 {
+  color: #b8b8b8;
+}
+.support-main svg {
+  color: white;
+  background-color: #b8b8b8;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.support-reguler {
+  padding: 0 20px;
+  /* width: 27%; */
+  margin-top: 15px;
+  border-right: 1px solid #b8b8b8;
+  height: 80px;
+}
+.support-intarction svg {
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+}
+.support-intarction {
+  margin-top: 10px;
+}
+.reg-form-main h2 {
+  padding: 0 0 15px 10px;
+  border-bottom: 2px solid #b8b8b8;
+}
+.reg-form-main {
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: white;
+}
+.reg-form-main form {
+  padding: 5px 10px;
+}
+.regetration-btn button {
+  margin: auto;
+  width: 100%;
+}
+
+.form-details {
+  margin-top: 20px;
+}
+
+.loagin-main {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 30px 50px;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.login-details h2 {
+  padding: 0 0 10px 0;
+}
+
+.rul-step-one {
+  background-color: white;
+  border-radius: 6px;
+}
+.vCard-step-one {
+  background-color: white;
+  border-radius: 6px;
+}
+
+.vCard-step-one form {
+  margin-left: 23px;
+}
+.download-qr img {
+  margin-bottom: 20px;
+}
+.download-qr button {
+  margin: auto;
+}
+.download-qr button {
+  color: rgb(221, 221, 221);
+  background-color: #28a745;
+}
+
+.download-qr button:hover {
+  color: white;
+  background-color: #00801e;
+}
+.error-message {
+  color: red;
+}
+
+.otp-verification-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.modal-content button {
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+/* Add responsive styles */
+@media screen and (max-width: 600px) {
+  .modal-content {
+    max-width: 90%;
+  }
+}
+.qr-code-wrapper button {
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.file-uploder {
+  padding: 23px;
+}
+
+.setted-border {
+  padding: 80px;
+}
+.social-some {
+  /* height: 10px; */
+  /* background-color: black; */
+}
+.qrwith-social-media {
+  padding: 0 0 20px 23px;
+}
+.qrwith-social-media svg {
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+  margin-top: 12px;
+}
+.qrwith-social-media p {
+  font-size: 15px;
+  padding-left: 5px;
+  margin-top: 9px;
+}
